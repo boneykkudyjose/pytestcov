@@ -1,0 +1,23 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.5, pytest-7.1.1, pluggy-1.0.0 -- /opt/hostedtoolcache/Python/3.10.5/x64/bin/python
+cachedir: .pytest_cache
+rootdir: /home/runner/work/pytestcov/pytestcov
+plugins: cov-3.0.0, mock-3.7.0
+collecting ... collected 2 items
+
+common/tests/test_capitalize.py::test_capitalize_string PASSED
+executor/tests/test_lower.py::test_capitalize_string PASSED
+
+----- generated xml file: /home/runner/work/pytestcov/pytestcov/pytest.xml -----
+
+---------- coverage: platform linux, python 3.10.5-final-0 -----------
+Name                              Stmts   Miss  Cover   Missing
+---------------------------------------------------------------
+common/tests/test_capitalize.py       6      1    83%   3
+executor/tests/test_lower.py          6      1    83%   3
+---------------------------------------------------------------
+TOTAL                                12      2    83%
+
+4 files skipped due to complete coverage.
+
+============================== 2 passed in 0.06s ===============================
