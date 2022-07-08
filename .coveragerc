@@ -1,2 +1,9 @@
 [run]
-omit = common/tests/* executor/tests/*
+source = .
+omit =common/tests/*
+branch = true
+
+[report]
+exclude_lines =
+    if __name__ == "__main__":
+show_missing = true
