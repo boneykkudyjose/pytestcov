@@ -1,6 +1,6 @@
 [run]
 source = .
-omit = tests/*
+omit = */tests/*
 branch = true
 
 [report]
