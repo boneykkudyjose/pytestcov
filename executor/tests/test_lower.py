@@ -4,4 +4,4 @@ def lower_string(s):
     return s.lower()
 
 def test_capitalize_string():
-    assert lower_string('Test') == 'test'
+    assert lower_string('Test') == 'Test'
